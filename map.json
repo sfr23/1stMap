@@ -82,7 +82,7 @@
          "name":"top",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":46,
          "x":0,
          "y":0
@@ -135,7 +135,7 @@
                  "value":3
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":46,
          "x":0,
          "y":0
@@ -902,22 +902,56 @@
                      "name":"",
                      "objects":[
                             {
-                             "height":0,
+                             "height":24.751598622725,
                              "id":1,
                              "name":"",
                              "rotation":0,
                              "type":"",
                              "visible":true,
+                             "width":26.6797835710772,
+                             "x":4.28922774225283,
+                             "y":6.7683226758485
+                            }, 
+                            {
+                             "height":0,
+                             "id":2,
+                             "name":"",
+                             "polygon":[
+                                    {
+                                     "x":0,
+                                     "y":0
+                                    }, 
+                                    {
+                                     "x":1.84948352188883,
+                                     "y":14.4023610427939
+                                    }, 
+                                    {
+                                     "x":4.32857845548451,
+                                     "y":19.636005902607
+                                    }, 
+                                    {
+                                     "x":16.3698967043778,
+                                     "y":-0.905066404328579
+                                    }],
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
                              "width":0,
-                             "x":15.7796360059026,
-                             "y":16.2911952779144
+                             "x":0.668962124938515,
+                             "y":1.57402852926709
                             }],
                      "opacity":1,
                      "type":"objectgroup",
                      "visible":true,
                      "x":0,
                      "y":0
-                    }
+                    },
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }],
          "tilewidth":32
         }],
