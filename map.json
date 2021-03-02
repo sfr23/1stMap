@@ -6,10 +6,12 @@
          "height":32,
          "width":32
         },
-     "export":
+      "export":
         {
-         "target":"."
+         "format":"json",
+         "target":"map.json"
         }
+
     },
  "height":25,
  "infinite":false,
