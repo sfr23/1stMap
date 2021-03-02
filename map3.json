@@ -5,7 +5,13 @@
         {
          "height":32,
          "width":32
+        },
+     "export":
+        {
+         "format":"json",
+         "target":"map3.json"
         }
+
     },
  "height":25,
  "infinite":false,
